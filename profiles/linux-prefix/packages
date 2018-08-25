@@ -1,0 +1,8 @@
+-*sys-apps/less
+-*sys-process/procps
+-*sys-process/psmisc
+-*virtual/editor
+-*virtual/pager
+-*virtual/ssh
+-*sys-apps/net-tools
+-*sys-apps/util-linux
