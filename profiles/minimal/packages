@@ -1,0 +1,23 @@
+# fs
+sys-fs/btrfs-progs
+sys-fs/dosfstools
+sys-fs/exfat-utils
+sys-fs/ntfs3g
+sys-fs/xfsprogs
+
+# gentoo specific
+app-eselect/eselect-repository
+app-portage/eix
+app-portage/pfl
+dev-vcs/git
+
+# network
+net-misc/dhcpcd
+net-vpn/openvpn
+
+# sys utils
+app-editors/vim
+app-misc/tmux
+app-text/wgetpaste
+sys-process/htop
+sys-process/lsof

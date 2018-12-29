@@ -1,0 +1,92 @@
+##############
+## Chromium ##
+##############
+#
+# dependencies required by www-client/chromium
+sys-libs/zlib minizip
+net-libs/nodejs inspector
+
+
+#############
+## Firefox ##
+#############
+#
+# required by www-client/firefox-60.4.0::gentoo
+media-libs/libpng apng
+>=dev-lang/python-3.6.5 sqlite
+
+
+############
+## Evince ##
+############
+#
+# required by app-text/evince-3.28.5::gentoo
+app-text/poppler cairo
+# required by dev-util/itstool-2.0.2::gentoo
+# required by app-text/evince-3.28.5::gentoo
+dev-libs/libxml2 python
+# required by app-text/evince-3.28.5::gentoo
+dev-libs/glib dbus
+
+
+#################
+## Libreoffice ##
+#################
+#
+# Features
+# =======
+app-office/libreoffice googledrive pdfimport
+#
+# Requirements
+# ============
+# required by app-office/libreoffice-6.0.6.2::gentoo
+dev-libs/xmlsec nss
+# required by net-print/cups-filters-1.20.4::gentoo[postscript]
+# required by net-print/cups-2.2.7::gentoo
+# required by app-office/libreoffice-6.0.6.2::gentoo[cups]
+app-text/ghostscript-gpl cups
+# required by x11-misc/xdg-utils-1.1.3-r1::gentoo
+# required by app-office/libreoffice-6.0.6.2::gentoo
+app-text/xmlto text
+# required by gnome-base/gnome-keyring-3.28.2::gentoo
+# required by app-crypt/libsecret-0.18.6-r1::gentoo
+# required by app-crypt/pinentry-1.1.0-r2::gentoo[gnome-keyring]
+# required by app-crypt/gnupg-2.2.10::gentoo
+# required by app-portage/gemato-14.0::gentoo[gpg]
+# required by sys-apps/portage-2.3.51-r1::gentoo[rsync-verify,-build]
+# required by app-admin/perl-cleaner-2.25::gentoo
+# required by dev-lang/perl-5.24.3-r1::gentoo
+# required by app-office/libreoffice-6.1.4.2::gentoo
+app-crypt/gcr gtk
+
+
+####################
+## Networkmanager ##
+####################
+#
+# net-misc/networkmanager and gnome-extra/nm-applet dependencies
+net-wireless/wpa_supplicant dbus
+net-misc/networkmanager elogind
+sys-auth/polkit elogind
+
+# required by dev-lang/spidermonkey-52.9.1_pre1::gentoo
+# required by sys-auth/polkit-0.115-r2::gentoo
+# required by sys-auth/elogind-238.2::gentoo[policykit]
+# required by net-misc/networkmanager-1.14.4::gentoo[elogind]
+# required by gnome-extra/nm-applet-1.8.18::gentoo
+dev-lang/python:2.7 sqlite
+
+
+##################
+## rxvt-unicode ##
+##################
+#
+x11-terms/rxvt-unicode 256-color blink pixbuf xft
+
+
+##############
+## dev-qt/* ##
+##############
+#
+# required by dev-qt/qtcore:5
+dev-libs/libpcre2 pcre16

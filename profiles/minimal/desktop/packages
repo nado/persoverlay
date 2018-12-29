@@ -1,0 +1,45 @@
+# browsers
+www-client/chromium
+www-client/firefox
+
+# cloud
+=net-misc/nextcloud-client-2.3.3
+
+# fonts
+media-fonts/arphicfonts
+media-fonts/bitstream-cyberbit
+media-fonts/dejavu
+media-fonts/dina
+media-fonts/droid
+media-fonts/ipamonafont
+media-fonts/noto
+media-fonts/ja-ipafonts
+media-fonts/takao-fonts
+media-fonts/wqy-microhei
+media-fonts/wqy-zenhei
+
+# gentoo stuff
+app-portage/gentoolkit
+
+# Networking
+gnome-extra/nm-applet
+net-misc/networkmanager
+-net-misc/dhcpcd
+
+# office
+app-office/libreoffice
+app-text/evince
+
+# terminal emulator
+x11-terms/rxvt-unicode
+
+# torrent
+net-p2p/transmission
+
+# X
+x11-apps/setxkbmap
+x11-apps/xprop
+x11-apps/xrandr
+x11-base/xorg-server
+x11-misc/numlockx
+x11-misc/xclip

@@ -1,1 +1,13 @@
 amd64-linux linux-prefix exp
+
+amd64       westmere                      exp
+amd64       westmere/builder              exp
+
+amd64       westmere/desktop              exp
+amd64       westmere/desktop/builder      exp
+
+amd64       westmere/desktop/i3           exp
+amd64       westmere/desktop/i3/builder   exp
+
+amd64       westmere/desktop/i3/asus-k52j          exp
+amd64       westmere/desktop/i3/asus-k52j/builder  exp

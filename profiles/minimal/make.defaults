@@ -1,0 +1,10 @@
+# This is the file where we set global settings about what should be installed
+# and compiled
+ACCEPT_LICENSE="*"
+
+# No need for lua or bindist
+USE="${USE} -bindist -lua -luajit"
+
+# A few common useful useflags
+USE="${USE} curl"
+

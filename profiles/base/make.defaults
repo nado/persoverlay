@@ -1,0 +1,10 @@
+# This is the file where global settings about how and where stuff is compiled
+# and installed.
+# Set common directories
+PKGDIR="/var/cache/gentoo/packages"
+DISTDIR="/var/cache/gentoo/distfiles"
+
+# No systemd artifacts
+INSTALL_MASK="/usr/lib/systemd /etc/systemd"
+
+FEATURES="${FEATURES} getbinpkg parallel-fetch"

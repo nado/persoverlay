@@ -1,0 +1,2 @@
+PORTAGE_BINHOST="https://gentoo.troglodyte.be/packages/westmere/desktop/i3/asus-k52j"
+VIDEO_CARDS="radeon r600 -amdgpu -intel -nouveau -radeonsi"

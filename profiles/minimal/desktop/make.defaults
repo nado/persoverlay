@@ -1,0 +1,10 @@
+# Basic services
+USE="${USE} gnome-keyring pulseaudio X"
+
+# International unicode
+USE="${USE} icu"
+
+# Various codecs
+USE="${USE} aac dvd exif faac ffmpeg flac fontconfig gif id3tag jpeg mad mp3 mp4 mpeg ogg png svg theora tiff truetype vorbis wavpack x264 x265 xvid"
+
+INPUT_DEVICES="libinput"

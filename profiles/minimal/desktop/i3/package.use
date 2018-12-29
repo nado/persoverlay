@@ -1,0 +1,6 @@
+# required by x11-libs/libxkbcommon
+# required by x11-wm/i3
+x11-libs/libxcb xkb
+
+# required by x11-wm/i3
+x11-libs/cairo xcb

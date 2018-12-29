@@ -1,0 +1,16 @@
+# WM
+media-gfx/feh
+x11-misc/parcellite
+x11-wm/i3
+
+# torrent
+-net-p2p/transmission
+net-p2p/rtorrent
+
+# browsers
+-www-client/chromium
+
+# pulseaudio
+media-sound/paprefs
+media-sound/pasystray
+media-sound/pavucontrol
