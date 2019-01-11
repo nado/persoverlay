@@ -21,6 +21,10 @@ RDEPEND=">=app-admin/eselect-1.4.13"
 src_install() {
 	insinto /usr/share/eselect/modules
 	doins stage.eselect
+
 	doinitd etc/init.d/mount-chroot
 	doconfd etc/conf.d/mount-chroot
+
+	insinto /etc
+	doins -r etc/eselect
 }
