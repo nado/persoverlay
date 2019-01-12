@@ -3,5 +3,4 @@ amd64-linux linux-prefix exp
 amd64	targets/asus-k52j         dev
 amd64	targets/asus-k52j/builder exp
 
-amd64       westmere/desktop/i3/asus-k52j          exp
-amd64       westmere/desktop/i3/asus-k52j/builder  exp
+amd64   targets/haswell/builder   exp
