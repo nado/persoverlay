@@ -18,13 +18,19 @@ media-fonts/takao-fonts
 media-fonts/wqy-microhei
 media-fonts/wqy-zenhei
 
+# fs
+sys-fs/btrfs-progs
+sys-fs/dosfstools
+sys-fs/exfat-utils
+sys-fs/ntfs3g
+sys-fs/xfsprogs
+
 # gentoo stuff
 app-portage/gentoolkit
 
 # Networking
 gnome-extra/nm-applet
 net-misc/networkmanager
--net-misc/dhcpcd
 
 # office
 app-office/libreoffice

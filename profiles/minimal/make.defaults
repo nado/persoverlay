@@ -6,5 +6,5 @@ ACCEPT_LICENSE="*"
 USE="${USE} -bindist -lua -luajit"
 
 # A few common useful useflags
-USE="${USE} curl"
+USE="${USE} curl iproute2 vim-syntax zsh-completion"
 
