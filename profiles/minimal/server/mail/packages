@@ -1,0 +1,9 @@
+mail-mta/postfix
+net-mail/dovecot
+mail-filter/spamassassin
+mail-filter/opendkim
+
+#TODO:
+# needed so opendkim doesnt pull sendmail which conflicts with postfix
+# should ask bgo to put a use flag to choose and not pull in @world some lib
+mail-filter/libmilter

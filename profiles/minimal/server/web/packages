@@ -1,0 +1,4 @@
+www-servers/nginx
+
+# dehydrated is really small, include by default on www profile
+app-crypt/dehydrated

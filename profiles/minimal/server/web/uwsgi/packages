@@ -1,0 +1,3 @@
+#TODO: check if uwsgi can work with python -m venv instead
+dev-python/virtualenv
+www-servers/uwsgi

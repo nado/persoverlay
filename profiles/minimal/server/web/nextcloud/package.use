@@ -1,0 +1,4 @@
+app-eselect/eselect-php fpm
+dev-lang/php curl exif fpm gd gmp intl pcntl pdo postgres truetype xml xmlreader xmlwriter zip
+dev-php/pecl-redis igbinary
+net-nfs/nfs-utils nfsv41

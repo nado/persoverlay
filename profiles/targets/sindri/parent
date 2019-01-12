@@ -1,0 +1,7 @@
+../../base/arm/scw-c1
+../../video_reset
+../../minimal/server/mail
+../../minimal/server/web/nextcloud
+../../minimal/server/web/uwsgi
+../../minimal/server/netutils
+../../minimal/server/user

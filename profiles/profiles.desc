@@ -4,3 +4,5 @@ amd64	targets/asus-k52j         dev
 amd64	targets/asus-k52j/builder exp
 
 amd64   targets/haswell/builder   exp
+
+arm	targets/sindri/builder    exp

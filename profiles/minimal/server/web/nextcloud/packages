@@ -1,0 +1,7 @@
+dev-db/postgresql
+dev-db/redis
+dev-lang/php
+dev-php/pecl-redis
+
+# fs support (remote directory in nc)
+net-fs/nfs-utils

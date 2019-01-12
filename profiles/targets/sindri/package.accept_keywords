@@ -1,0 +1,30 @@
+# ../../minimal
+app-eselect/eselect-repository ~arm
+app-admin/ccze ~arm
+app-shells/zsh-completions ~arm
+
+# ../../minimal/server/mail
+mail-filter/opendkim ~arm
+mail-filter/libmilter ~arm
+
+# ../../minimal/server/netutils
+net-analyzer/nethogs ~arm
+net-analyzer/speedtest-cli ~arm
+
+# ../../minimal/server/user
+net-p2p/rtorrent ~arm
+net-libs/libtorrent ~arm
+net-p2p/mktorrent ~arm
+
+# ../../minimal/server/web
+app-crypt/dehydrated ~arm
+www-servers/nginx ~arm
+# required by www-servers/nginx-1.13.7::gentoo[vim-syntax]
+app-vim/nginx-syntax ~arm
+
+# ../../minimal/server/web/uwsgi
+www-servers/uwsgi ~arm
+
+# ../../minimal/server/web/nextcloud
+dev-php/pecl-redis ~arm
+dev-php/igbinary ~arm

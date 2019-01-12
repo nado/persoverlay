@@ -1,0 +1,3 @@
+net-mail/dovecot managesieve sieve
+mail-mta/postfix dovecot-sasl eai
+mail-filter/spamassassin cron
