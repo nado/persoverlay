@@ -1,0 +1,2 @@
+# use simulated entropy because of hardware on scw C1
+*sys-apps/haveged
