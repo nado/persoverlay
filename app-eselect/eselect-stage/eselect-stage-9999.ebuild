@@ -28,3 +28,13 @@ src_install() {
 	insinto /etc
 	doins -r etc/eselect
 }
+
+pkg_postinst() {
+	elog "In order to run foreign arch chroot, you need app-emulation/qemu"
+	elog "built with static-user and the necessary qemu_user_targets."
+	elog "For example, if you intend to chroot into an arm stage, you'd need"
+	elog "app-emulation/qemu[static-user,qemu_user_targets_arm]"
+	elog
+	elog "If you don't intend to chroot foreign arch, you can ignore this"
+	elog "message"
+}
